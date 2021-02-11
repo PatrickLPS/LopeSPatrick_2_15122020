@@ -1,4 +1,4 @@
-﻿@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 html,
 body {
     margin-right: 10px;
@@ -9,6 +9,7 @@ body {
 
 
 /* hebergements marseille flexbox */
+
 .hebergementsetPopulaires {
     display: flex;
     gap: 2%;
@@ -19,16 +20,20 @@ body {
 .hebergements {
     display: flex;
     background-color: #F2F2F2;
-    height: auto;
     box-sizing: border-box;
+    height: auto;
+    ;
     flex-wrap: wrap;
     border-radius: 20px;
-    max-width: 60%;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 .hbg img {
-    width: 100%;
+    width: 200px;
     height: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
     display: flex;
     box-sizing: border-box;
     object-fit: cover;
@@ -57,12 +62,13 @@ section p {
 
 
 /* hebergements les plus populaire flexbox */
+
 .plusPopulaires {
     background-color: #F2F2F2;
-    width: 38%;
+    width: 100%;
     padding: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
     border-radius: 20px;
     box-sizing: border-box;
     display: flex;
@@ -71,38 +77,31 @@ section p {
 }
 
 .popuTitre,
+.hbgtitre,
+.activitesTitre,
 .afficher {
     min-width: 50%;
     box-sizing: border-box;
     padding-left: 10%;
 }
 
-.activitesTitre,
-.hbgtitre {
-    min-width: 50%;
-    box-sizing: border-box;
-    padding-left: 5%;
-}
-
 .imageplusPopulaires {
-    width: 120px;
-    height: 130px;
-    border-radius: 20px 0px 0px 20px;
+    width: 100%;
+    height: 100px;
+    border-radius: 20px 20px 0px 0px;
     object-fit: cover;
     box-sizing: border-box;
-    overflow: hidden;
-    float: left;
+    display: flex;
 }
 
 .texteplusPopulaires .blockPopu {
-    overflow: hidden;
-    float: left;
+    display: flex;
 }
 
 .texteplusPopulaires {
     white-space: normal;
-    width: 38ex;
-    text-align: center;
+    width: 300px;
+    display: block;
 }
 
 .hbg {
@@ -112,11 +111,11 @@ section p {
     padding: 3px;
     text-align: center;
     border-radius: 20px;
-    margin-bottom: 2%;
     height: 200px;
-    width: 30%;
+    width: 200px;
     display: flex;
     justify-content: space-evenly;
+    margin: 1ex;
     filter: drop-shadow(0 0 0.20rem gray);
 }
 
@@ -126,7 +125,7 @@ section p {
     color: black;
     padding: 3px;
     width: 100%;
-    display: flex;
+    text-align: center;
     border-radius: 20px;
     filter: drop-shadow(0 0 0.20rem gray)
 }
@@ -140,42 +139,43 @@ section p {
     padding-top: 4px;
     padding-bottom: 4px;
     padding-top: 0px;
+    width: 100%;
     border-bottom: 1px solid;
 }
 
 .blockActivites1 img {
-    height: 400px;
-    max-width: 45ex;
+    height: 180px;
+    max-width: 100%;
     object-fit: cover;
 }
 
 .blockActivites2 img {
     height: 180px;
-    max-width: 35ex;
+    max-width: 100%;
     object-fit: cover;
 }
 
 .blockActivites3 img {
-    height: 150px;
-    max-width: 35ex;
+    height: 180px;
+    max-width: 100%;
     object-fit: cover;
 }
 
 .blockActivites4 img {
-    height: 400px;
-    max-width: 45ex;
+    height: 180px;
+    max-width: 100%;
     object-fit: cover;
 }
 
 .blockActivites5 img {
     height: 180px;
-    max-width: 35ex;
+    max-width: 100%;
     object-fit: cover;
 }
 
 .blockActivites6 img {
-    height: 150px;
-    max-width: 35ex;
+    height: 180px;
+    max-width: 100%;
     object-fit: cover;
 }
 
@@ -189,16 +189,17 @@ section p {
     margin-top: 10px;
     border-radius: 20px;
     box-sizing: border-box;
+    width: 100%;
+    padding-bottom: 50px;
 }
 
 .touslesblocksactivites {
-    gap: 2%;
     height: 600px;
-    display: flex;
+    display: inline;
     margin-top: 10px;
-    height: 100%;
     box-sizing: border-box;
     padding-bottom: 50px;
+    width: 100%;
 }
 
 .touslesblocksactivites img {
@@ -214,10 +215,11 @@ section p {
     font-weight: bold;
 }
 
+
 /* Elements */
 
 h1 {
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .recherche {
@@ -242,7 +244,7 @@ a:hover {
 }
 
 .info p {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .navp p {
@@ -281,6 +283,7 @@ section a {
 i {
     text-decoration: black;
 }
+
 .headerNav {
     display: flex;
     justify-content: flex-end;
@@ -299,6 +302,10 @@ h2 {
     display: inline-flex;
 }
 
+h2 {
+    font-size: 22px;
+}
+
 .info {
     display: inline-flex;
 }
@@ -306,7 +313,7 @@ h2 {
 .barreRecherche,
 button {
     padding: 12px;
-    font-size: 16px;
+    font-size: 15px;
     border: black 0px solid;
 }
 
@@ -380,4 +387,5 @@ footer a {
 .blockFooter {
     display: flex;
     justify-content: space-evenly;
+    font-size: 15px;
 }

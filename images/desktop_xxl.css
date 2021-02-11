@@ -9,6 +9,7 @@ body {
 
 
 /* hebergements marseille flexbox */
+
 .hebergementsetPopulaires {
     display: flex;
     gap: 2%;
@@ -57,9 +58,11 @@ section p {
 
 
 /* hebergements les plus populaire flexbox */
+
 .plusPopulaires {
     background-color: #F2F2F2;
     width: 38%;
+    ;
     padding: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -214,6 +217,7 @@ section p {
     font-weight: bold;
 }
 
+
 /* Elements */
 
 h1 {
@@ -281,6 +285,7 @@ section a {
 i {
     text-decoration: black;
 }
+
 .headerNav {
     display: flex;
     justify-content: flex-end;
