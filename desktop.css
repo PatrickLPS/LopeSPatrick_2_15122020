@@ -292,7 +292,7 @@ i {
 }
 
 .headerSignup,
-.headerNav a {
+.headerNav  {
     text-decoration: none;
     color: black;
 }
@@ -680,7 +680,7 @@ i {
 }
 
 .headerSignup,
-.headerNav a {
+.headerNav a{
     text-decoration: none;
     color: black;
 }
