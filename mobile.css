@@ -87,7 +87,7 @@ body {
 
 .texteplusPopulaires {
     float: right;
-    white-space: wrap;
+    white-space: normal;
     overflow: hidden;
     width: 220px;
 }

@@ -204,7 +204,7 @@ section p {
 
 .touslesblocksactivites img {
     border-top-left-radius: 20px;
-    flex: wrap;
+    flex-wrap: wrap;
     width: 100%;
     padding: 0px;
     border-top-right-radius: 20px;
@@ -592,7 +592,7 @@ section p {
 
 .touslesblocksactivites img {
     border-top-left-radius: 20px;
-    flex: wrap;
+    flex-wrap: wrap;
     width: 100%;
     padding: 0px;
     border-top-right-radius: 20px;
@@ -772,3 +772,4 @@ footer a {
     display: flex;
     justify-content: space-evenly;
 }
+
