@@ -285,15 +285,7 @@ i {
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    flex-wrap: wrap-reverse;
-}
-
-.headerSignup,
-.headerNav a {
-    text-decoration: none;
-    color: black;
-}
-
+    flex-wrap: wrap-reverse;}
 .barreFiltre,
 h2 {
     display: inline-flex;
