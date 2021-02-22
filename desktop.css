@@ -11,7 +11,6 @@ body {
 /* hebergements marseille flexbox */
 .hebergementsetPopulaires {
     display: flex;
-    gap: 2%;
     box-sizing: border-box;
     flex-wrap: wrap;
 }
@@ -20,10 +19,10 @@ body {
     display: flex;
     background-color: #F2F2F2;
     height: auto;
-    box-sizing: border-box;
+    box-sizing:border-box;
     flex-wrap: wrap;
-    border-radius: 20px;
-    max-width: 60%;
+    border-radius:20px;
+    width:65%;margin-right:1%;
 }
 
 .hbg img {
@@ -33,7 +32,7 @@ body {
     box-sizing: border-box;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-    flex-wrap: wrap;
+   
 }
 
 .marseille {
@@ -42,40 +41,25 @@ body {
     justify-content: space-evenly;
 }
 
-h3 {
-    font-size: 16px;
-}
-
-P {
-    font-size: 14px;
-    text-align: left;
-}
-
-section p {
-    text-align: center;
-}
-
-
 /* hebergements les plus populaire flexbox */
 .plusPopulaires {
     background-color: #F2F2F2;
-    width: 38%;
-    ;
+    width:33%;
     padding: 10px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 20px;
     box-sizing: border-box;
-    display: flex;
+   
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-left:1%;
 }
 
 .popuTitre,
 .afficher {
-    min-width: 50%;
-    box-sizing: border-box;
-    padding-left: 10%;
+    
+    padding-left: 5%;
 }
 
 .activitesTitre,
@@ -86,24 +70,19 @@ section p {
 }
 
 .imageplusPopulaires {
-    width: 120px;
+    width:33%;
     height: 130px;
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
     box-sizing: border-box;
-    overflow: hidden;
-    float: left;
-}
-
-.texteplusPopulaires .blockPopu {
-    overflow: hidden;
+    margin-right: 10px;
     float: left;
 }
 
 .texteplusPopulaires {
-    white-space: normal;
-    width: 38ex;
-    text-align: center;
+    white-space:normal;
+    min-width:20%;
+    text-align:left;   
 }
 
 .hbg {
@@ -111,12 +90,12 @@ section p {
     background-color: white;
     color: black;
     padding: 3px;
-    text-align: center;
+    text-align:left;
     border-radius: 20px;
-    margin-bottom: 2%;
+    margin-bottom:2%;
     height: 200px;
-    width: 30%;
-    display: flex;
+    width:25%;
+    display:flex;
     justify-content: space-evenly;
     filter: drop-shadow(0 0 0.20rem gray);
 }
@@ -125,15 +104,15 @@ section p {
     font: 12px;
     background-color: white;
     color: black;
-    padding: 3px;
-    width: 100%;
+    padding:3px;
+    width:100%;
     display: flex;
     border-radius: 20px;
     filter: drop-shadow(0 0 0.20rem gray)
 }
 
 
-/* activitÃŠs */
+/* activités */
 
 .activites figcaption {
     background-color: white;
@@ -141,86 +120,110 @@ section p {
     padding-top: 4px;
     padding-bottom: 4px;
     padding-top: 0px;
-    border-bottom: 1px solid;
+    filter: drop-shadow(0 0 0.20rem gray);
+    display:flex;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .blockActivites1 img {
     height: 400px;
-    max-width: 45ex;
+    width:35ex;
     object-fit: cover;
 }
 
 .blockActivites2 img {
     height: 180px;
-    max-width: 35ex;
+    width:35ex;
     object-fit: cover;
 }
 
 .blockActivites3 img {
     height: 150px;
-    max-width: 35ex;
+    width:35ex;
     object-fit: cover;
 }
 
 .blockActivites4 img {
     height: 400px;
-    max-width: 45ex;
+    width:35ex;
     object-fit: cover;
 }
 
 .blockActivites5 img {
     height: 180px;
-    max-width: 35ex;
+    width:35ex;
     object-fit: cover;
 }
 
 .blockActivites6 img {
     height: 150px;
-    max-width: 35ex;
+    width: 35ex;
     object-fit: cover;
-}
-
-.blockActivites3,
-.blockActivites6 {
-    margin-top: 10px;
+    box-sizing: border-box;
 }
 
 .activites {
     background-color: white;
-    margin-top: 10px;
     border-radius: 20px;
-    box-sizing: border-box;
+    
 }
 
 .touslesblocksactivites {
-    gap: 2%;
-    height: 600px;
+    height: 500px;
     display: flex;
-    margin-top: 10px;
-    height: 100%;
-    box-sizing: border-box;
-    padding-bottom: 50px;
+    
 }
 
+figure {
+    display: flex;
+    margin-block-start:20px;
+    margin-block-end:20px;
+    margin-inline-start:20px;
+    margin-inline-end:20px;
+
+}
 .touslesblocksactivites img {
     border-top-left-radius: 20px;
     flex-wrap: wrap;
-    width: 100%;
+    display: flex;
+    max-width:100%;
     padding: 0px;
     border-top-right-radius: 20px;
-    object-fit: cover;
-}
-
+    object-fit: cover;}
+    
 .nomActivites {
-    font-weight: bold;
+    font-weight: bold;margin-left:5px
 }
 
 
 /* Elements */
 
 h1 {
-    font-size: 26px;
+    font-size: 24px;
 }
+.hbg h3 {
+    font-size: 16px;text-align: left;
+    margin-left: 5px;
+   
+}
+article h3{font-size: 16px;}
+article p{ line-height:2px;}
+
+P {
+    font-size: 14px;   
+}
+
+
+.etoiles{font-size: 12px;margin-left:5px;position: absolute;bottom:10px;}
+.star{font-size: 12px;margin-left:5px;position: absolute;left:125px;bottom:10px;}
+.hbg p {
+    text-align:left;
+    font-size: 14px;
+    margin-left:5px;
+    line-height:2px;
+}
+
 
 .recherche {
     display: flex;
@@ -234,15 +237,17 @@ header {
 .headerSignup {
     font-size: 18px;
     margin-right: 20px;
-    font-weight: bold;
-    color: black;
-    text-decoration: none;
-}
+    text-decoration: none;}
 
+.headerNavLink{color:black}
+.headerSignup{font-weight: bold;color:#0065FC}
 a:hover {
-    color: blue;
+    color:  #0065fc;
 }
-
+.headerNavLink:hover {
+    border-top: solid 3px #0065fc;
+    color: #0065fc;
+}
 .info p {
     font-size: 18px;
 }
@@ -257,10 +262,7 @@ section a {
 }
 
 .fa-star {
-    color: #0065FC;
-    padding-left: 5px;
-    padding-right: 5px;
-}
+    color: #0065FC;}
 
 .gray {
     color: gray;
@@ -291,8 +293,9 @@ i {
     flex-wrap: wrap-reverse;}
 .barreFiltre,
 h2 {
-    display: inline-flex;
+    display:inline-flex;
 }
+h2{font-size:18px;}
 
 .info {
     display: inline-flex;
@@ -316,8 +319,7 @@ button {
 .fa-money-bill-wave,
 .fa-child,
 .fa-heart,
-.fa-dog,
-.fa-info {
+.fa-dog {
     font-size: 22px;
     margin-left: 5px;
     margin-right: 5px;
@@ -328,7 +330,18 @@ button {
     text-align: center;
     color: #0065FC;
 }
-
+.fa-info{
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+    border-radius: 100%;
+    border: 1px solid lightgray;
+    padding: 8px;
+    width:16px;
+    text-align: center;
+    color: #0065FC;
+}
 .titre {
     margin: auto;
     font-weight: bold;
@@ -363,15 +376,14 @@ div.titre {
 footer {
     background-color: #F2F2F2;
     width: 100%;
-    height: 200px;
-    margin-top: 50px;
+    height:200px;
 }
 
 footer a {
     text-decoration: none;
     color: black;
 }
-
+.interieurblockFooter{display: flex;flex-direction: column;}
 .blockFooter {
     display: flex;
     justify-content: space-evenly;}

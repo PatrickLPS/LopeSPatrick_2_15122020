@@ -12,25 +12,26 @@ body {
 /* hebergements marseille flexbox */
 .hebergementsetPopulaires {
     display: flex;
-    gap: 2%;
     box-sizing: border-box;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .hebergements {
-    background-color: #F2F2F2;
-    width: 100%;
+    width:100%;
     padding: 10px;
-    margin-bottom: 50px;
-    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+    box-sizing: border-box;
 }
 
 .marseille img {
-    width: 100%;
-    max-height: 105px;
-    border-radius: 20px 20px 0px 0px;
+    width:100%;
+    height: 110px;
+    border-radius:20px 20px 0px 0px;
     object-fit: cover;
+    box-sizing: border-box;
 }
 
 .marseille p {
@@ -38,14 +39,14 @@ body {
     color: black;
     line-height: 2px;
     padding-left: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 .marseille h3 {
     color: black;
     padding-left: 10px;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
 }
 
 .hbg {
@@ -56,40 +57,78 @@ body {
 
 
 /* hebergements les plus populaire flexbox */
-
 .plusPopulaires {
     background-color: #F2F2F2;
-    width: 100%;
+    width:100%;
     padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    box-sizing: border-box;
+order:-1;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    border-radius: 20px;
+    margin-left:1%;
+    margin-bottom: 20px;
+   
 }
 
-.plusPopulaires p {
-    font-size: 14px;
+
+.popuTitre,
+.afficher {
+    
+    padding-left: 5%;
 }
 
-.blockPopu {
-    margin-bottom: 10px;
+.activitesTitre,
+.hbgtitre {
+    min-width: 50%;
+    box-sizing: border-box;
+    padding-left: 5%;
 }
 
 .imageplusPopulaires {
-    width: 45%;
-    height: 140px;
+    width:30%;
+    height:150px;
     border-radius: 20px 0px 0px 20px;
-    justify-content: space-evenly;
-    object-fit: cover;
-}
-
-.texteplusPopulaires .blockPopu {
-    display: flex;
+    object-fit:cover;
+    box-sizing:border-box;
+    margin-right:10px;
+    float: left;
 }
 
 .texteplusPopulaires {
-    float: right;
-    white-space: normal;
-    overflow: hidden;
-    width: 220px;
+    white-space:normal;
+    min-width:20%;
+    text-align:left;   
+}
+
+.hbg {
+    font: 12px;
+    background-color: white;
+    color: black;
+    padding: 3px;
+    text-align:left;
+    border-radius: 20px;
+    margin-bottom:2%;
+    height: 200px;
+    width:25%;
+    display:flex;
+    justify-content: space-evenly;
+    filter: drop-shadow(0 0 0.20rem gray);
+}
+
+.blockPopu figcaption {
+    font: 12px;
+    background-color: white;
+    color: black;
+    padding:3px;
+    height: 150px;
+    width:100%;
+    margin-bottom:10px;
+    display: flex;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 0.20rem gray)
 }
 
 
@@ -120,19 +159,19 @@ body {
 }
 
 .blockActivites1 img {
-    height: 200px;
+    height: 180px;
     width: 100%;
     object-fit: cover;
 }
 
 .blockActivites2 img {
-    height: 200px;
+    height: 180px;
     width: 100%;
     object-fit: cover;
 }
 
 .blockActivites3 img {
-    height: 200px;
+    height: 180px;
     width: 100%;
     object-fit: cover;
 }
@@ -144,13 +183,13 @@ body {
 }
 
 .blockActivites5 img {
-    height: 200px;
+    height: 180px;
     width: 100%;
     object-fit: cover;
 }
 
 .blockActivites6 img {
-    height: 200px;
+    height: 180px;
     width: 100%;
     object-fit: cover;
 }
@@ -164,12 +203,12 @@ body {
     width: 100%;
     flex-wrap: wrap;
     margin-top: 10px;
-    border-bottom: 1px solid;
-    text-align: center;
+    filter: drop-shadow(0 0 0.20rem gray);
+    text-align:left;
 }
 
 .nomActivites {
-    font-weight: bold;
+    font-weight: bold;margin-left:5px
 }
 
 figure {
@@ -181,7 +220,7 @@ figure {
     background-color: white;
     color: black;
     padding: 3px;
-    text-align: center;
+    text-align: left;
     border-radius: 20px;
     width: 100%;
     padding-left: 4px;
@@ -202,17 +241,35 @@ figure {
 
 
 /* Elements */
-
+.etoiles{font-size: 12px;margin-left:15px;position: absolute;}
+.star{font-size: 12px;margin-left:5px;position: absolute;left:140px;bottom:20px}
 .recherche {
     display: flex;
 }
 
 header {
-    display: flex;
+    display:block;
 }
 
 h1 {
     font-size: 17px;
+}
+.hbg h3 {
+    font-size: 16px;text-align: left;
+    margin-left: 5px;
+   
+}
+article h3{font-size: 16px;}
+article p{ line-height:2px;}
+
+P {
+    font-size: 14px;   
+}
+.hbg p {
+    text-align:left;
+    font-size: 14px;
+    margin-left:5px;
+    line-height:2px;;
 }
 
 section a {
@@ -224,11 +281,12 @@ i {
     text-decoration: black;
 }
 
-.fa-star {
+.fa-star{
     color: #0065FC;
-    padding-left: 10px;
-    align-content: center;
+    align-content: left;
+    
 }
+
 
 .gray {
     color: gray;
@@ -256,20 +314,28 @@ h3 {
 .headerSignup {
     font-size: 18px;
     margin-right: 20px;
-    font-weight: bold;
-    color: black;
-    text-decoration: none;
+    text-decoration: none;}
+    
+.headerNavLink{color:black;text-align: center;justify-content: space-evenly;margin-left:20%;width:100%;}
+
+.headerSignup{font-weight: bold;color:#0065FC;position: absolute;top:30px;left:350px;}
+
+a:hover,h3:hover{
+    color:#0065fc;
 }
 
-a:hover {
-    color: blue;
+.headerNavLink:hover {
+    border-bottom: solid 3px #0065fc;
+    color: #0065fc;
+   
 }
+
 
 .headerNav {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    flex-wrap: wrap-reverse;}
+display: flex;
+    justify-content:space-evenly;
+  }
+
 .barreFiltre,
 h2 {
     display: inline-flex;
@@ -313,6 +379,18 @@ button {
     text-align: center;
     color: #0065FC;
 }
+.fa-info{
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+    border-radius: 100%;
+    border: 1px solid lightgray;
+    padding: 8px;
+    width:16px;
+    text-align: center;
+    color: #0065FC;
+}
 
 .titre {
     margin: auto;
@@ -352,18 +430,19 @@ div.titre {
 
 footer {
     background-color: #F2F2F2;
-    width: 100%;
-    height: 200px;
-    margin-top: 50px;
+    width:100%;
+    height:450px;
+    
 }
 
 footer a {
     text-decoration: none;
     color: black;
 }
-
+.interieurblockFooter{display: flex;flex-direction: column;}
 .blockFooter {
     display: flex;
     justify-content: space-evenly;
-    font-size: 12px;
+    font-size: 16px;
+    flex-direction: column;
 }
