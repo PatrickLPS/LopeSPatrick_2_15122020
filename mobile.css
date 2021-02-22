@@ -317,9 +317,9 @@ h3 {
     margin-right: 20px;
     text-decoration: none;}
     
-.headerNavLink{color:black;text-align: center;justify-content: space-evenly;margin-left:20%;width:100%;}
+.headerNavLink{color:black;text-align: center;justify-content: space-evenly;margin-left:18%;width:100%;}
 
-.headerSignup{font-weight: bold;color:#0065FC;position: absolute;top:30px;left:350px;}
+.headerSignup{font-weight: bold;color:#0065FC;position: absolute;top:30px;left:75%;}
 
 a:hover,h3:hover{
     color:#0065fc;
