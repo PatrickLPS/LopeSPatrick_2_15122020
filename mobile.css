@@ -350,10 +350,11 @@ h2 {
     display: inline-flex;
 }
 
-.barreRecherche,
+.barreRecherche{padding: 10px;}
+
 button {
-    padding:10px;
-    font-size: 15px;
+    
+    font-size:15px;
     border: black 0px solid;
     
 }
