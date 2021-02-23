@@ -1,11 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
-html,
-body {
+html {
     font-family: "Raleway";
-   width:100%;
-    margin-left:5px;
-    margin-right:5px;
-    box-sizing: border-box;
+    box-sizing:content-box;
    
 }
 
