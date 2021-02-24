@@ -50,7 +50,7 @@ body {
     padding-right: 10px;
     border-radius: 20px;
     box-sizing: border-box;
-  
+    order:-1;
     justify-content: space-evenly;
     flex-wrap: wrap;
     
