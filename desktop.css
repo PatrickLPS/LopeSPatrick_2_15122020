@@ -12,13 +12,13 @@ body {
 .hebergementsetPopulaires {
     display: flex;
     box-sizing: border-box;
-    flex-wrap: wrap;
+   
 }
 
 .hebergements {
     display: flex;
     background-color: #F2F2F2;
-    height: auto;
+    height:auto;
     box-sizing:border-box;
     flex-wrap: wrap;
     border-radius:20px;
@@ -32,7 +32,6 @@ body {
     box-sizing: border-box;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-   
 }
 
 .marseille {
@@ -44,16 +43,15 @@ body {
 /* hebergements les plus populaire flexbox */
 .plusPopulaires {
     background-color: #F2F2F2;
-    width:33%;
+    width:420px;
     padding: 10px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 20px;
     box-sizing: border-box;
-   
     justify-content: space-evenly;
-    flex-wrap: wrap;
     margin-left:1%;
+   
 }
 
 .popuTitre,
@@ -70,7 +68,7 @@ body {
 }
 
 .imageplusPopulaires {
-    width:33%;
+    width:120px;
     height: 130px;
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
@@ -95,7 +93,6 @@ body {
     margin-bottom:2%;
     height: 200px;
     width:25%;
-    display:flex;
     justify-content: space-evenly;
     filter: drop-shadow(0 0 0.20rem gray);
 }
@@ -106,7 +103,6 @@ body {
     color: black;
     padding:3px;
     width:100%;
-    display: flex;
     border-radius: 20px;
     filter: drop-shadow(0 0 0.20rem gray)
 }

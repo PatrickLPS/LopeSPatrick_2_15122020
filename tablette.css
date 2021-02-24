@@ -72,7 +72,7 @@ body {
 }
 
 .imageplusPopulaires {
-    width:40%;
+    width:220px;
     height:150px;
     border-radius: 20px 0px 0px 20px;
     object-fit:cover;
@@ -95,9 +95,8 @@ body {
     text-align:left;
     border-radius: 20px;
     margin-bottom:2%;
-    height: 200px;
-    width:25%;
-    display:flex;
+    height:190px;
+    width:220px;
     justify-content: space-evenly;
     filter: drop-shadow(0 0 0.20rem gray);
 }
@@ -108,8 +107,8 @@ body {
     color: black;
     padding:3px;
     height: 150px;
-    width:100%;
-    display: flex;
+    min-width:100%;
+   
     border-radius: 20px;
     filter: drop-shadow(0 0 0.20rem gray)
 }
@@ -124,7 +123,7 @@ body {
     padding-bottom: 4px;
     padding-top: 0px;
     filter: drop-shadow(0 0 0.20rem gray);
-    display:flex;
+ 
     width:100%;
     box-sizing: border-box;
 }
@@ -185,7 +184,7 @@ P {
 
 
 .etoiles{font-size: 12px;margin-left:5px;position: absolute;bottom:10px;}
-.star{font-size: 12px;margin-left:5px;position: absolute;left:215px;bottom:10px;}
+.star{font-size: 12px;margin-left:5px;position: absolute;left:230px;bottom:10px;}
 .hbg p {
     text-align:left;
     font-size: 14px;
