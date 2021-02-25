@@ -5,6 +5,7 @@ body {
     margin-left: 10px;
     font-family: "Raleway";
     margin-top: 10px;
+    
 }
 
 
@@ -173,11 +174,10 @@ body {
 
 figure {
     display: flex;
-    margin-block-start:20px;
-    margin-block-end:20px;
-    margin-inline-start:20px;
-    margin-inline-end:20px;
-
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
+    margin-bottom:20px;
 }
 .touslesblocksactivites img {
     border-top-left-radius: 20px;
