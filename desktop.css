@@ -26,8 +26,8 @@ body {
 }
 
 .hbg img {
-    width: 100%;
-    height: 100px;
+    width:100%;
+    height:50%;
     display: flex;
     box-sizing: border-box;
     object-fit: cover;
@@ -92,7 +92,7 @@ body {
     border-radius: 20px;
     margin-bottom:2%;
     height: 200px;
-    width:25%;
+    width:30%;
     justify-content: space-evenly;
     filter: drop-shadow(0 0 0.20rem gray);
 }
