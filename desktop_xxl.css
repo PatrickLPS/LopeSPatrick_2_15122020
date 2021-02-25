@@ -44,16 +44,14 @@ body {
 /* hebergements les plus populaire flexbox */
 .plusPopulaires {
     background-color: #F2F2F2;
-    width:33%;
+    width:420px;
     padding: 10px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 20px;
     box-sizing: border-box;
-   
     justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-left:1%;
+    margin-left:1%;  
 }
 
 .popuTitre,
