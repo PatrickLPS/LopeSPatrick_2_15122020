@@ -345,7 +345,7 @@ h2 {
 
 input.barreRecherche{padding:10px;border:solid 1px lightgray; font-weight: bold;font-size:16px;
 }
-.fa-chart-line{position:absolute;left:92%;}
+.fa-chart-line{position:absolute;left:92%;border-radius: 24px 24px 24px 24px;}
 
 button {
     background-color: #0065FC;
